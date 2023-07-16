@@ -1,0 +1,43 @@
+.sidebar{
+    padding-top: 40px;
+flex: 1;
+background-color: white;
+}
+.top, .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 29px;
+}
+hr {
+    border: 1px dotted #615c5c;
+    border-style: none none dotted; 
+}
+
+button{
+    color: Red;
+    border-radius: 50rem;
+    background-color: rgb(237, 201, 201);
+    border-color: red;
+    font-size: 1rem;
+}
+.icons{
+    font-size: 18px;
+    color: #1C4980;
+    ;
+}
+p{
+    font-weight: bold;
+    color: #1C4980;
+}
+.active-box p, .active-box .icons{
+    color: #55A2EE;
+}
+.active-box{
+
+    border-radius: 1rem;
+    border: 2px solid #55A2EE;
+    padding: .7rem;
+}
